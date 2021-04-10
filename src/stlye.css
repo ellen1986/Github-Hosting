@@ -1,0 +1,49 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: linear-gradient(
+    110.4deg,
+    rgba(201, 221, 162, 1) 2.5%,
+    rgba(249, 223, 130, 1) 37.2%,
+    rgba(97, 169, 210, 1) 66.4%,
+    rgba(65, 87, 134, 1) 97.6%
+  );
+}
+
+h1 {
+  color: #675454;
+  font-size: 40px;
+  font-weight: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #150303;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: right;
+}
+
+.weather-app {
+  border: 1px solid #675454;
+  padding: 18px;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.fa-cloud-sun {
+  font-size: 50px;
+  padding: 10;
+  color: #e9e9c8;
+}
+
+.temperature {
+  color: #150303;
+  font-size: 80px;
+  font-weight: 200px;
+}
